@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>AirBnB Clone</title>
+		<link rel="stylesheet" href="styles/102-common.css">
+		<link rel="stylesheet" href="styles/102-header.css">
+		<link rel="stylesheet" href="styles/102-footer.css">
+		<link rel="stylesheet" href="styles/102-filters.css">
+		<link rel="stylesheet" href="styles/102-places.css">
+		<link rel="icon" type="image/x-icon" href="images/icon.png">
+	</head>
+	<body>
+		<header>
+			<a class="logo" href="102-index.html"></a>
+		</header>
+		<div class="container">
+			<section class="filters">
+				<div class="locations">
+					<h3>States</h3>
+					<h4>Nairobi, Meru</h4>
+					<ul class="popover">
+						<li>
+							<h2>Nairobi:</h2>
+							<ul>
+								<li>Kawangware</li>
+								<li>Kilimani</li>
+								<li>South B</li>
+							</ul>
+						</li>
+						<li>
+							<h2>Meru:</h2>
+							<ul>
+								<li>Kaaga</li>
+								<li>Nkubu</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="amenities">
+					<h3>Amenities</h3>
+					<h4>Gym, Bar, Swimming Pool</h4>
+					<ul class="popover">
+						<li>Gym</li>
+						<li>Bar</li>
+						<li>Swimming Pool</li>
+					</ul>
+				</div>
+				<button class="btn-search" type="button">Search</button>
+			</section>
+			<section class="mobile_filters">
+				<div class="locations">
+					<h3>States</h3>
+					<select name="locations">
+						<option value="kawangware">Nairobi - Kawangware</option>
+						<option value="kilimani">Nairobi - Kilimani</option>
+						<option value="south_b">Nairobi - South B</option>
+						<option value="kaaga">Meru - Kaaga</option>
+						<option value="nkubu">Meru - Nkubu</option>
+					</select>
+				</div>
+				<div class="amenities">
+					<h3>Amenities</h3>
+					<select name="amenities">
+						<option value="gym">Gym</option>
+						<option value="bar">Bar</option>
+						<option value="swimming_pool">Swimming Pool</option>
+					</select>
+				</div>
+				<button class="btn-search" type="button">Search</button>
+			</section>
+			<section class="places">
+				<h1>Places</h1>
+				<div>
+					<article>
+					<h2>Willowbrook</h2>
+						<div class="price_by_night">
+							<span>$80</span>
+						</div>
+						<div class="information">
+							<div class="max_guest">
+								<span>
+									5 Guests
+								</span>
+							</div>
+							<div class="number_rooms">
+								<span>4 Bedroom</span>
+							</div>
+							<div class="number_bathrooms">
+								<div></div>
+								<span>2 Bathroom</span>
+							</div>
+						</div>
+						<div class="user">
+							<span><b>Owner:</b> Ryan Higa</span>
+						</div>
+						<div class="description">
+							Charming 2-story home in Willowbrook.
+							Cul-de-sac location, open-concept living area, gourmet kitchen, 4 bedrooms, serene backyard. 
+							Family-friendly neighborhood with top-rated schools.
+						</div>
+						<div class="amenities">
+							<h2>
+								Amenities
+							</h2>
+							<ul>
+								<li><div class="icon pet"><span>Pet friendly</span></div></li>
+								<li><div class="icon tv"><span>TV</span></div></li>
+								<li><div class="icon wifi"><span>Wifi</span></div></li>
+
+							</ul>
+						</div>	
+						<div class="reviews">
+							<h2>Reviews</h2>
+							<ul>
+								<li>
+									<h3>From Sarah: July 22, 2023</h3>
+									<p>This house is a hidden gem! The moment I stepped inside, I fell in love with its cozy atmosphere and stylish decor. 
+										The backyard garden is an absolute delight, perfect for relaxing on lazy weekends.</p>
+								</li>
+								<li>
+									<h3>From Michael: July 20, 2023</h3>
+									<p>I recently stayed in this house, and it was a fantastic experience.
+										The modern amenities and spacious rooms made our stay comfortable and enjoyable.
+										The location is excellent, with easy access to restaurants and shops.</p>
+								</li>
+								<li>
+									<h3>From Emily: July 18, 2023</h3>
+									<p>What a charming little house! I adored the vintage touches and the quaint neighborhood.
+										It's an ideal place for a peaceful retreat away from the bustling city life.</p>
+								</li>
+							</ul>
+						</div>
+
+					</article>
+					<article>
+					<h2>Greenfield</h2>
+						<div class="price_by_night">
+							<span>$120</span>
+						</div>
+						<div class="information">
+							<div class="max_guest">
+								<span>
+									7 Guests
+								</span>
+							</div>
+							<div class="number_rooms">
+								<span>5 Bedroom</span>
+							</div>
+							<div class="number_bathrooms">
+								<span>3 Bathroom</span>
+							</div>
+						</div>
+						<div class="user">
+							<span><b>Owner:</b> Katie Holmes</span>
+						</div>
+						<div class="description">
+							Luxurious ranch-style home in Greenfield.
+							3,000 sqft, 5 bedrooms, 3 baths.
+							Sleek kitchen, floor-to-ceiling fireplace, master suite with spa-like bathroom.
+							Saltwater pool, fire pit in the backyard.
+							The sleek and stylish kitchen is equipped with top-of-the-line stainless steel appliances, quartz countertops, and a spacious island that doubles as a breakfast bar.
+							The living area showcases a stunning floor-to-ceiling stone fireplace and large glass sliding doors that seamlessly blend indoor and outdoor living.
+						</div>
+						<div class="amenities">
+							<h2>
+								Amenities
+							</h2>
+							<ul>
+								<li><div class="icon gym"><span>Gym</span></div></li>
+								<li><div class="icon pool"><span>Swimming pool</span></div></li>
+								<li><div class="icon parking"><span>Parking</span></div></li>
+								<li><div class="icon game"><span>Game room</span></div></li>
+
+							</ul>
+						</div>
+						<div class="reviews">
+							<h2>Reviews</h2>
+							<ul>
+								<li>
+									<h3>From David: July 15, 2023</h3>
+									<p>
+										I couldn't have asked for a better vacation rental.
+										This house offers stunning views of the nearby mountains and a serene ambiance that's hard to match.
+										Highly recommended!
+									</p>
+								</li>
+								<li>
+									<h3>From Laura: July 12, 2023</h3>
+									<p>
+										A true home away from home.
+										The house is tastefully furnished, and the well-equipped kitchen allowed us to cook some delicious meals during our stay.
+										The nearby beach made it even more special.
+									</p>
+								</li>
+								<li>
+									<h3>From Alex: July 10, 2023</h3>
+									<p>
+										This house is a paradise for nature lovers!
+										Surrounded by lush greenery and hiking trails, it provides the perfect escape from city life.
+										The sunsets from the balcony are breathtaking.
+									</p>
+								</li>
+								<li>
+									<h3>From Kevin: July 8, 2023</h3>
+									<p>
+										We had a wonderful family reunion in this spacious house.
+										The open layout and large backyard gave us plenty of room to enjoy quality time together.
+										The kids especially loved the playroom.
+									</p>
+								</li>
+							</ul>
+						</div>
+					</article>
+					<article>
+						<h2>Riverside</h2>
+						<div class="price_by_night">
+							<span>$100</span>
+						</div>
+						<div class="information">
+							<div class="max_guest">
+								<span>
+									5 Guests
+								</span>
+							</div>
+							<div class="number_rooms">
+								<span>4 Bedroom</span>
+							</div>
+							<div class="number_bathrooms">
+								<span>3 Bathroom</span>
+							</div>
+						</div>
+						<div class="user">
+							<span><b>Owner:</b> キヨ</span>
+						</div>
+						<div class="description">
+							Exquisite Victorian-style home in Riverside's historic district.
+							Preserved interior, gourmet kitchen, 4 bedrooms, master suite with balcony.
+							Lush garden, charming courtyard. Tree-lined streets, close-knit community.
+						</div>
+						<div class="amenities">
+							<h2>
+								Amenities
+							</h2>
+							<ul>
+								<li><div class="icon pool"><span>Swimming pool</span></div></li>
+								<li><div class="icon library"><span>Library</span></div></li>
+								<li><div class="icon game"><span>Game room</span></div></li>
+
+							</ul>
+						</div>
+						<div class="reviews">
+							<h2>Reviews</h2>
+							<ul>
+								<li>
+									<h3>From Jessica: July 5, 2023</h3>
+									<p>
+										I spent a relaxing weekend here, and it exceeded my expectations.
+										The owners were incredibly accommodating, and the house had a warm and inviting ambiance.
+										I'd definitely stay here again.
+									</p>
+								</li>
+								<li>
+									<h3>From Mark: July 3, 2023</h3>
+									<p>
+										This house is an architectural marvel! The design is unique and captivating.
+										The pool and entertainment area were perfect for hosting a summer BBQ with friends.
+									</p>
+								</li>
+								<li>
+									<h3>From Rachel: July 1, 2023</h3>
+									<p>
+										I fell in love with this charming cottage the moment I arrived.
+										The attention to detail in the decor and the tranquil surroundings made it an unforgettable getaway.
+										Can't wait to return!
+									</p>
+								</li>
+							</ul>
+						</div>
+					</article>
+				</div>
+			</section>
+		</div>
+		<footer>
+			<div>
+				<span>Best School</span>
+			</div>
+		</footer>
+	</body>
+</html>

@@ -1,3 +1,6 @@
 .venv/
 __pycache__/
-file.json
+.venv/
+tools/
+file.json*
+.envrc

@@ -1,0 +1,52 @@
+.filters {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: white;
+	height: 70px;
+	width: 100%;
+	border: 1px solid #DDDDDD;
+	border-radius: 4px;
+}
+
+.btn-search {
+	font-size: 18px;
+	background-color: #FF5A5F;
+	margin-left: auto;
+	color: #FFFFFF;
+	height: 48px;
+	width: 20%;
+	border: 0px;
+	border-radius: 4px;
+	margin-right: 30px;
+}
+
+.btn-search:hover {
+	opacity: 0.9;
+}
+
+.filters > div {
+	height: 100%;
+	width:25%;
+}
+
+.filters h3 {
+	font-weight: 600;
+	margin: 0;
+	margin-top: 7%;
+	margin-left: 20%;
+}
+
+.filters h4 {
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0;
+	margin-left: 20%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.filters > div:first-child {
+	border-right: 1px solid #DDDDDD;
+}

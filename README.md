@@ -57,9 +57,6 @@ Print string representation of all or named classes
 $
 ```
 
-- layout
-![](https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2018/6/815046647d23428a14ca.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230712%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230712T194425Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=7fe2137bf66a5e19a965a6cbd7ac72701fcb5d03f707f860339aa1d3166bf006)
-
 #### Example
 ```console
 $ ./console.py
